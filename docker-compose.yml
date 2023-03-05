@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  app:
+    container_name: c_web
+    hostname: web_host
+    build: 
+      context: ./docker/web
+      dockerfile: Dockerfile-web
+    tty: true
+    ports:
+      - 127.0.1.1:80:80
+      - 127.0.1.1:443:443
+    volumes:
+      - ./appli:/var/www
+      - db-store:/var/lib/mysql
+      # - ./docker/app/:/docker-entrypoint-initdb.d/
+volumes:
+  db-store:
