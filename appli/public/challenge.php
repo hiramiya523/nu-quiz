@@ -9,7 +9,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="js/mizukawa.js"></script>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/reset.css">
 	<title>クイズ一覧</title>
   <style>
       body {
@@ -18,6 +19,7 @@
   </style>
 </head>
 <body>
+	<?php include __DIR__ . '/components/header.php'; ?>
 	<table border="1">
 		<caption>クイズ一覧</caption>
     <thead>

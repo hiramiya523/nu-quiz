@@ -29,12 +29,13 @@ if (isset($_POST['register'], $_POST['question'], $_POST['answer'])) {
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/common.css">
 		<link rel="stylesheet" href="./css/reset.css">
 		<title>nu-quiz</title>
 </head>
 
 <body>
-	<?php include __DIR__ . '/component/header.php'; ?>
+	<?php include __DIR__ . '/components/header.php'; ?>
 	<section>
 		<h2>クイズ登録</h2>
 		<form action="./" method="post">

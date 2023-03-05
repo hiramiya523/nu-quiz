@@ -13,7 +13,6 @@
 		font-size: 30px;
 		font-weight: bold;
 		margin-bottom: 10px;
-
 		letter-spacing: 1px;
 	}
 
@@ -21,7 +20,7 @@
 		color: #fff;
 	}
 
-  header nav ul li {
+  nav ul li {
     display: inline-block;
 		padding-top: 5px;
 		margin-bottom: 2px;
@@ -32,8 +31,13 @@
 		font-weight: bold;
   }
 
-	header nav ul li:hover {
+	nav ul li:hover {
 		background-color: #aaa;
+	}
+
+	nav ul li a {
+		width: 100%;
+		display: inline-block;
 	}
 
 </style>
